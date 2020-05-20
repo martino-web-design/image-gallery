@@ -1,24 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import NewSearch from "./components/NewSearch";
+import "./App.css";
+import { makeStyles, createMuiTheme, ThemeProvider } from "@material-ui/core";
+import blue from "@material-ui/core/colors/blue";
+
+const useStyles = makeStyles({
+  myMargin: {
+    margin: "100px 50px",
+  },
+});
+
+const theme = createMuiTheme({
+  palette: {
+    primary: blue,
+  },
+});
 
 function App() {
+  const classes = useStyles();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={classes.myMargin}>
+      <ThemeProvider theme={theme}>
+        <NewSearch />
+      </ThemeProvider>
     </div>
   );
 }

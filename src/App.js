@@ -6,7 +6,7 @@ import blue from "@material-ui/core/colors/blue";
 
 const useStyles = makeStyles({
   myMargin: {
-    margin: "100px 50px",
+    margin: "100px 15px",
   },
 });
 

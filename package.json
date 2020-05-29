@@ -2,7 +2,7 @@
   "name": "movie_search_app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://martino-web-design.github.io/picture-finder",
+  "homepage": "https://martino-web-design.github.io/react-portfolio",
   "dependencies": {
     "@material-ui/core": "^4.9.11",
     "@material-ui/icons": "^4.9.1",

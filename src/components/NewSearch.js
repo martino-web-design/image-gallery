@@ -50,7 +50,7 @@ function NewSearch() {
         Image Gallery
       </Typography>
 
-      <Grid container spacing={5} style={{ padding: "24px" }}>
+      <Grid container spacing={2} style={{ padding: "5px" }}>
         {searchData.map((img) => (
           <Grid item key={img.id} xs={12} sm={6} lg={4}>
             <MediaCard title={img.tags} name={img.user} avatar={img.largeImageURL} />

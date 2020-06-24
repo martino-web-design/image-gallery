@@ -19,12 +19,6 @@ const useStyles = makeStyles((theme) => ({
   content: {
     backgroundColor: "#303030",
   },
-  action: {
-    backgroundColor: "#555",
-  },
-  typo: {
-    color: "dodgerblue",
-  },
   para: {
     color: "#ddd",
   },

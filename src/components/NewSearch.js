@@ -50,9 +50,9 @@ function NewSearch() {
             Images to show:
           </InputLabel>
           <Select color="primary" labelId="demo-simple-select-label" id="demo-simple-select" value={amount} onChange={setImagesShown}>
-            <MenuItem value={10}>Ten</MenuItem>
-            <MenuItem value={25}>Twenty-Five</MenuItem>
-            <MenuItem value={50}>Fifty</MenuItem>
+            <MenuItem value={10}>10</MenuItem>
+            <MenuItem value={25}>25</MenuItem>
+            <MenuItem value={50}>50</MenuItem>
           </Select>
         </Toolbar>
       </AppBar>

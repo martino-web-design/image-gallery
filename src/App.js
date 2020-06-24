@@ -6,7 +6,9 @@ import blue from "@material-ui/core/colors/blue";
 
 const useStyles = makeStyles({
   myMargin: {
-    margin: "100px 15px",
+    margin: "100px auto",
+    padding: "0px 15px",
+    maxWidth: "2000px",
   },
 });
 

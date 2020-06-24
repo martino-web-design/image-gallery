@@ -17,11 +17,9 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   content: {
-    // paddingBottom: 0,
     backgroundColor: "#303030",
   },
   action: {
-    // height: ,
     backgroundColor: "#555",
   },
   typo: {
@@ -43,7 +41,7 @@ function MediaCard({ title, name, avatar }) {
           <Typography color="primary" gutterBottom variant="h6" component="h2">
             {title}
           </Typography>
-          <Typography className={classes.para} variant="body2" component="p">
+          <Typography style={{ fontFamily: "Kaushan Script, cursive" }} className={classes.para} variant="body2" component="p">
             by: {name}
           </Typography>
         </CardContent>
